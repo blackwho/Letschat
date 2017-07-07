@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url('/images/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;  
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.85);
+    height: 100vh;
+    padding: 0;
+}
+
+.content-main h1 {
+    font-size: 56px;
+    color: slateblue;
+    margin: 0;
+}
+
+.content-main form {
+    text-align: center;
+}
+
+.form-fields {
+    padding: 10px;
+    border: 1px solid slateblue;
+    border-radius: 4px;
+}
+
+.dashboard-nav{
+    background-color: slateblue;
+    width: 100vw;
+    color: whitesmoke;
+}
+
+.dashboard-nav h1{
+    color: whitesmoke;
+    font-size: 32px;
+    padding: 10px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.list-container{
+    background-color: rgba(255,255,255,0.9);
+    width: 80vw;
+}
+
+.user-list {
+    list-style: none;
+}
+.user-item {
+    border-bottom: 1px solid slategray;
+    border-top: 1px solid slategray;
+}
+
+.register-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: slateblue;
+    color:white;
+    border: none;
+}
